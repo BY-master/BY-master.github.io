@@ -1,6 +1,6 @@
 +++
 date = '2026-06-28T21:23:08+08:00'
 draft = false
-title = 'My First Post'
+title = ' '
 +++
-Hello World!!
+像是寂静湖水中一抹温柔的光，泛开在光晕之中
