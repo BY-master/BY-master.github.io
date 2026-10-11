@@ -24,7 +24,7 @@ body.is-home header.cover > div > div:last-child {
 }
 
 body.is-home header.cover h1 {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-weight: 50;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 100;
   color: #fff;
 }
