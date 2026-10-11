@@ -1,6 +1,6 @@
 body.is-home header.cover {
   aspect-ratio: 4 / 1;
-  min-height: 280px;
+  min-height: 240px;
   background-size: cover;
   background-position: center;
   display: flex;
