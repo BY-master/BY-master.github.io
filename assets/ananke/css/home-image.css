@@ -1,11 +1,14 @@
 body.is-home header.cover {
-  aspect-ratio: 1806 / 871;
-  background-size: 100% auto !important;
-  background-position: top center;
+  aspect-ratio: 3 / 1;
+  min-height: 280px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
 }
 
 body.is-home header.cover > div {
-  height: 100%;
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -17,38 +20,4 @@ body.is-home header.cover > div > div:last-child {
   justify-content: center;
   padding-top: 0;
   padding-bottom: 0;
-}
-
-@media (min-width: 48em) {
-  body.is-home header.cover {
-    position: relative;
-    height: clamp(360px, 32vw, 480px);
-    aspect-ratio: auto;
-    overflow: hidden;
-  }
-
-  body.is-home header.cover::before,
-  body.is-home header.cover::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: inherit;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  body.is-home header.cover::before {
-    background-size: cover;
-    filter: blur(18px);
-    transform: scale(1.08);
-  }
-
-  body.is-home header.cover::after {
-    background-size: contain;
-  }
-
-  body.is-home header.cover > div {
-    position: relative;
-    z-index: 1;
-  }
 }
