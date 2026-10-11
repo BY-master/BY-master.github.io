@@ -4,7 +4,7 @@ title = "BY's Blog"
 theme = "ananke"
 
 [params.ananke]
-custom_css = ["home-image.css", "/css/montserrat-font.css"]
+custom_css = ["home-image.css"]
 
 [[menus.main]]
 name = "关于"
