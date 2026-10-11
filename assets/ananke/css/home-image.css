@@ -1,0 +1,5 @@
+body.is-home header.cover {
+  background-size: contain !important;
+  background-position: center center;
+  background-color: #000;
+}
