@@ -7,3 +7,13 @@ theme = "ananke"
 name = "关于"
 pageRef = "/about/"
 weight = 10
+
+[[menus.main]]
+name = "网站"
+pageRef = "/website/"
+weight = 20
+
+[[menus.main]]
+name = "酒吧"
+pageRef = "/bar/"
+weight = 30
