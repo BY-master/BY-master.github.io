@@ -1,5 +1,20 @@
 body.is-home header.cover {
-  background-size: contain !important;
-  background-position: center center;
-  background-color: #000;
+  aspect-ratio: 1672 / 941;
+  background-size: 100% auto !important;
+  background-position: top center;
+}
+
+body.is-home header.cover > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body.is-home header.cover > div > div:last-child {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
