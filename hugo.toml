@@ -2,3 +2,8 @@ baseURL = 'https://by-master.github.io/'
 locale = 'en-us'
 title = "BY's Blog"
 theme = "ananke"
+
+[[menus.main]]
+name = "关于"
+pageRef = "/about/"
+weight = 10
