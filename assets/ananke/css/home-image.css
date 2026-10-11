@@ -20,11 +20,11 @@ body.is-home header.cover > div > div:last-child {
   justify-content: center;
   padding-top: 0;
   padding-bottom: 0;
-  transform: translateY(-25px);
+  transform: translateY(-30px);
 }
 
 body.is-home header.cover h1 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
 }
