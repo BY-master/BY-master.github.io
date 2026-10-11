@@ -24,7 +24,7 @@ body.is-home header.cover > div > div:last-child {
 }
 
 body.is-home header.cover h1 {
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  font-weight: 800;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-weight: bold;
   color: #fff;
 }
