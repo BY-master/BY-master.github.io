@@ -20,11 +20,11 @@ body.is-home header.cover > div > div:last-child {
   justify-content: center;
   padding-top: 0;
   padding-bottom: 0;
-  transform: translateY(-40px);
+  transform: translateY(-50px);
 }
 
 body.is-home header.cover h1 {
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   color: #fff;
 }
